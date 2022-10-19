@@ -1,0 +1,16 @@
+CREATE TABLE users(
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   enrollmentNo INT DEFAULT 0,
+   fname VARCHAR(100) DEFAULT '' NOT NULL,
+   lname VARCHAR(100) DEFAULT '' NOT NULL,
+   dob   VARCHAR(15),
+   gender VARCHAR(20),
+   mobileno VARCHAR(15)   DEFAULT '0',
+   address VARCHAR(60),
+   city VARCHAR(40),
+   state VARCHAR(10),
+   userType TINYINT(1) DEFAULT 0,
+   deleteFlag TINYINT(1) DEFAULT 0
+);
+
+INSERT INTO users(fname,lname, dob, gender, mobileno, address, city, state) VALUES('Dhruv','Suthar', '01/01/2000' ,'Male','9127016678','New Ranip','Ahmedabad','Gujarat');
