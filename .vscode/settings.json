@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "eSchool/WebContent/WEB-INF/lib/json-20140107.jar",
+        "eSchool/WebContent/WEB-INF/lib/mysql-connector-java-8.0.30.jar"
+    ]
+}
